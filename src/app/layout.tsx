@@ -1,4 +1,5 @@
 import '@styles/global.css'
+import Nav from "@components/navigation/Nav";
 
 export const metadata = {
     title: "Imagine",
@@ -22,6 +23,7 @@ const RootLayout = ({children}: RootLayoutProps) => {
         </div>
 
         <main className="app">
+            <Nav/>
             {children}
         </main>
         </body>
